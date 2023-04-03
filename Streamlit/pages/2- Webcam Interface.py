@@ -28,9 +28,9 @@ def keypoint_extraction(results):
 
 st.header('Webcam Interface')
 st.info('In this section, the sign-language recognition models on alphanumeric characters can be tested.')
-st.markdown('---')
 
 st.sidebar.header("Webcam Interface")
+st.sidebar.caption('For simplicity and easier hosting, the dataset is recorded with only the right hand.')
 st.sidebar.info("Webcam Page lets you test two models trained on alphanumeric characters of ASL.")
 
 choice = st.select_slider('Select a model:', options=['None', 'Alpha', 'Num'])
@@ -50,9 +50,9 @@ if choice == 'Num' or choice == 'Alpha':
     col1, col2 = st.columns(2)
     with col1:
         image = Image.open('./icons/ref.jpg')
-        st.image(image, caption='@Credit~ Finlay McNevin', width=350)
+        st.image(image, caption='@Credit~ Finlay McNevin', width=375)
     with col2:
-        st.caption("Press 'l' to clear out the video captions when needed.")
+        st.error("Press 'l' to clear out the video captions when needed.")
         sentence, keypoints = [' '], []
         run = st.checkbox('Run')
         FRAME_WINDOW = st.image([])

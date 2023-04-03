@@ -22,10 +22,10 @@ st.sidebar.markdown(
                 <h1 style="color: rgb(224, 224, 224); position: absolute; z-index: 2; top: 20px; left: 100px; font-family: sans-serif;">Sign Language Recognition</h1>
             </div>
             <div style="margin-top: 40px">
-                <a href="https://github.com/samya-ravenXI/Movie-Recommendation-System" style="position: absolute; z-index: 2; top: 131px; left: 35px">
+                <a href="https://github.com/samya-ravenXI/Sign-Language-Recognition" style="position: absolute; z-index: 2; top: 131px; left: 35px">
                     <img src="https://img.shields.io/badge/github-repo-white" alt="repo"/>
                 </a>
-                <a href="https://colab.research.google.com/drive/1J6hg-FvonxtgzQ71MNr11md5gFtiqmZV?usp=share_link" style="position: absolute; z-index: 2; top: 131px; right: 35px">
+                <a href="https://colab.research.google.com/drive/1ZgvceZNj3cT_-OrwEomMa8od80DG2UrX?usp=sharing" style="position: absolute; z-index: 2; top: 131px; right: 35px">
                     <img src="https://img.shields.io/badge/colab-notebook-orange" alt="repo"/>
                 </a>
             </div>
